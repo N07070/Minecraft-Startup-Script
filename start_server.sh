@@ -9,7 +9,7 @@ echo ">> (c) 2014 N07070 - Licenced under GPL 3.0"
 echo ">> * Please contact @_007N_ on twitter for bug report."
 echo ">> If you need help, type ./start_server.sh -h "
 echo "======================================================"
-sleep 1.3
+sleep 2
 clear
 
 #This function runs to check if the directory has everything the server needs.
@@ -23,7 +23,7 @@ function first_run() {
 		echo -e ">> I'm done making the backup directory. \a"
 		wget --progress=bar https://s3.amazonaws.com/Minecraft.Download/versions/1.7.10/minecraft_server.1.7.10.jar -O minecraft_server.jar
 		echo -e ">> I'm done downloading the server .jar . \a"
-		wget http://www.rw-designer.com/icon-image/5547-64x64x8.png -O server-icon.png
+		wget https://raw.githubusercontent.com/007N/Minecraft-Startup-Script/master/server-icon.png -O server-icon.png
 		echo -e ">> I'm done downloading the server icon. \a"
 		clear
 	fi
