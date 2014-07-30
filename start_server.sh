@@ -45,7 +45,6 @@ function run_server() {
 	clear
 	echo ">> Lancement du serveur Minecraft en cours..." 
 	clear
-	say "Minecraft is up and running !"
 	java -Xms2G -Xmx2G -jar minecraft_server.jar -o --nogui
 	echo ">> Arrêt du serveur fini. "
 }
@@ -66,6 +65,7 @@ else
 	echo ">> * You will need to provide your server icon."
 	echo ">> * You will need to accept the EULA for the server to run."
 	echo ">> * The script deletes the logs and the backups made on the previous run, for space."
+	echo ">> * The first time, you will encounter errors. Once the EULA are accepted, run the script again, it should fix most of them."
 	echo ">> * You can skip this part as of now by strating the script with the -k argument."
 	read -p "Press [Enter] key to start the script..."
 fi
