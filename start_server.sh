@@ -50,7 +50,7 @@ function first_run() {
 		echo -e ">> I will now create a directory for backups, the jar for the server and an icon for your server. \a"
 		mkdir Backups/
 		echo -e ">> I'm done making the backup directory. \a"
-		wget --progress=bar https://s3.amazonaws.com/Minecraft.Download/versions/1.8/minecraft_server.1.8.jar -O minecraft_server.jar
+		wget --progress=bar https://s3.amazonaws.com/Minecraft.Download/versions/1.8.7/minecraft_server.1.8.7.jar -O minecraft_server.jar
 		echo -e ">> I'm done downloading the server .jar . \a"
 		wget https://raw.githubusercontent.com/007N/Minecraft-Startup-Script/master/server-icon.png -O server-icon.png
 		echo -e ">> I'm done downloading the server icon. \a"
