@@ -17,4 +17,4 @@ Most of the installation is done by the script, but you still need:
 * A working version of Java 7,
 * To run the script. To do so, just drap n' drop the script in the Terminal.
   * To open the terminal, press cmb + space and type Terminal, then press enter. 
-* That shoul do it ! If you have any problemes, please contact me @_ 007N_ on twitter.
+* That should do it !
